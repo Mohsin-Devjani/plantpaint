@@ -6,7 +6,7 @@ if (!isset($_SESSION['username']))
   }
   if($_SESSION['access']!= "admin")
   {
-    echo 'You are not authorized!';
+    echo 'You are not authorized!'.$_SESSION['access'];
     header('location: salesperson.php');
   }
 ?>

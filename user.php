@@ -35,7 +35,8 @@ if (!isset($_SESSION['username']))
 				<th> <a class="btn1" href= "user.php">USERS </div></th>
 				<th> <a class="btn1" href= "product.php">PRODUCTS </div></th>
 				<th> <a class="btn1" href= "salesperson.php">SALESPERSON </div></th>
-				<th> <a class="btn1" href= "ctable.php">CUSTOMERS </div></th>			</tr>
+				<th> <a class="btn1" href= "ctable.php">CUSTOMERS </div></th>
+				<th> <a class="btn1" href= "../survey/index.php">SURVEYS </div></th>			</tr>
 		</thead>
 	</table>
 	<div class="header1">
@@ -53,7 +54,7 @@ if (!isset($_SESSION['username']))
 							</tr>
 						</thead>
 						<?php
-	$conn = mysqli_connect("localhost", "root", "", "PROJECT1");
+	$conn = mysqli_connect("localhost", "root", "", "PROJECT");
   // Check connection
   if ($conn->connect_error) {
    die("Connection failed: " . $conn->connect_error);

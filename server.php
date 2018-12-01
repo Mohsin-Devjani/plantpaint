@@ -12,7 +12,7 @@ $gc="";
 $contact="";
 $errors = array();
 // CONNECT O DB
-	$db = mysqli_connect('localhost','root','','PROJECT1');
+	$db = mysqli_connect('localhost','root','','PROJECT');
 	//REGISTER BTN CLICKED
 	if(isset($_POST['reg_user']))
 	{

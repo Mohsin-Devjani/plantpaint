@@ -1,3 +1,20 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @Mohsin-Devjani Sign out
+1
+0 0 Mohsin-Devjani/plantpaint
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+plantpaint/style.css
+a7fbc7c  18 days ago
+@Mohsin-Devjani Mohsin-Devjani Add files via upload
+    
+102 lines (94 sloc)  1.54 KB
 * {
   margin: 0px;
   padding: 0px;
@@ -10,8 +27,9 @@ body {
 
 .header {
   width: 30%;
-  margin: 50px auto 0px;
+  margin: 40px auto 0px;
   color: white;
+  margin-top: 15px;
   background: #5F9EA0;
   text-align: center;
   border: 1px solid #B0C4DE;
@@ -98,4 +116,38 @@ form, .content {
 }
 a: link{
     text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+}
+
+li a:hover:not(.active) {
+    background-color: darkblue;
+}
+#logout-btn:hover{
+     background-color: maroon;
+}
+
+.active {
+    background-color: #0275d8;
+}
+.active:hover {
+    background-color: darkblue;
+    border-color: #419641;
 }

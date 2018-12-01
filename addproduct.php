@@ -9,7 +9,7 @@
   if($_SESSION['access']!= "admin")
   {
     echo 'You are not authorized!';
-    header('location: ctable.php');
+    header('location: product.php');
   }
 ?>
 <!DOCTYPE html>
